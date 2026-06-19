@@ -45,3 +45,8 @@ body{
     width: 100%;
 
 }
+
+#gender {
+    cursor: pointer;
+    font-size: 20px;
+}
