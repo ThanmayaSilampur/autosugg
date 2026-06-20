@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toggle</title>
+    <title>Auto Suggest</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
@@ -11,11 +11,17 @@
         <a href="/">Home</a>
         <a href="/pages/card.html">Card</a>
         <a href="/pages/toggle.html">Toggle</a>
-        <a href="/pages/random-user.html">Random User</a>
+        <a href="">Random User</a>
+    </div>
+    <div class="card">
+        <img id ="user-image" src="../images/john.png" alt="user image" width="300">
+        <h2 id ="user-name">John Doe</h2>
+        <p id="user-gender">Male</p>
+
+        <button onclick="toggle()">toggle</button>
     </div>
 
-    <h2 id="gender">Male</h2>
-
     <script src="../js/index.js"></script>
+    <script src="../js/toggle.js"></script>
 </body>
 </html>

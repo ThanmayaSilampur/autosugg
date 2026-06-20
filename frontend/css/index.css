@@ -50,3 +50,6 @@ body{
     cursor: pointer;
     font-size: 20px;
 }
+.card button {
+     margin-bottom: 10px;
+}
